@@ -1,0 +1,40 @@
+
+body{
+    background-color: #f24d5a;
+    }
+
+.bg{
+    background-color: #FFE6B5;
+}
+
+h2{
+    transition: background-color 2s ease-in-out;
+}
+
+ h2::first-letter{
+    font-size: 2em;
+    color: rgb(212, 255, 0);
+}
+.first{
+    color: rgb(8, 239, 96);
+    font-size: 1.2em;
+}
+
+.second{
+    font-size: 1.8em;
+    color: blue;
+}
+
+h2:hover{
+   background-color: rgb(234, 11, 167);
+   
+}
+
+#submit{
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+input[type="text"],[type="number"]{
+    padding: 12px 10px;
+}
